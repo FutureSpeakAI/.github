@@ -17,34 +17,20 @@ We create open-source tools for AI agents that are sovereign, trustworthy, and s
 - Electron + Gemini + Claude + OpenRouter
 - Sovereign Vault v2: passphrase-only encryption with no OS dependency
 
-### The cLaw Framework — Compiled Laws for AI
+### Friday Linux
 
-[**claw-framework**](https://github.com/FutureSpeakAI/claw-framework) introduces a new paradigm for AI governance: behavioral constraints compiled directly into the agent binary, HMAC-signed for tamper detection, verified at runtime, with graceful safe-mode degradation and cross-agent attestation via Ed25519 signatures.
+[**Friday-Linux**](https://github.com/FutureSpeakAI/Friday-Linux) is a sealed, portable, encrypted bootc-based OS image that boots directly into Agent Friday.
 
-The name is a portmanteau: **c**ompiled + **Law**. The laws are architecture, not configuration.
-
-### Sovereign Vault — Passphrase-Only Encryption
-
-[**sovereign-vault**](https://github.com/FutureSpeakAI/sovereign-vault) provides at-rest encryption derived entirely from a user passphrase via Argon2id, with SecureBuffer guard-paged memory (sodium_malloc, mlock, canary bytes) and a Rust-inspired borrow pattern for key access.
-
-### Trust Graph Engine — Hermeneutic Trust Scoring
-
-[**trust-graph-engine**](https://github.com/FutureSpeakAI/trust-graph-engine) models every person in a user's world with multi-dimensional trust scores (reliability, expertise, emotional trust, timeliness, information quality), hermeneutic re-evaluation from all evidence, time-based decay, and fuzzy person resolution.
-
-### And More...
+### Also live
 
 | Repository | Description |
 |-----------|-------------|
-| [agent-integrity](https://github.com/FutureSpeakAI/agent-integrity) | HMAC-signed identity protection with memory tamper detection |
-| [cognitive-memory](https://github.com/FutureSpeakAI/cognitive-memory) | Three-tier agent memory (short/medium/long-term) |
-| [personality-evolution](https://github.com/FutureSpeakAI/personality-evolution) | Trait-driven visual identity and psychological profiling |
-| [meeting-intelligence](https://github.com/FutureSpeakAI/meeting-intelligence) | Full meeting lifecycle management for AI agents |
-| [predictive-agent](https://github.com/FutureSpeakAI/predictive-agent) | Proactive suggestion engine |
-| [self-improving-agent](https://github.com/FutureSpeakAI/self-improving-agent) | Controlled self-modification with mandatory human approval |
-| [commitment-tracker](https://github.com/FutureSpeakAI/commitment-tracker) | Promise detection, tracking, and accountability |
-| [hmac-integrity](https://github.com/FutureSpeakAI/hmac-integrity) | Platform-agnostic HMAC-SHA256 signing engine |
-| [context-graph](https://github.com/FutureSpeakAI/context-graph) | Unified context streaming with throttling and deduplication |
-| [pageindex-rag](https://github.com/FutureSpeakAI/pageindex-rag) | Web page intelligence and RAG pipeline |
+| [trust-graph](https://github.com/FutureSpeakAI/trust-graph) | Personal hermeneutic trust model for AI assistants: evidence-based, five dimensions, exponential decay |
+| [epistemic-score](https://github.com/FutureSpeakAI/epistemic-score) | The Epistemic Independence Score: does an AI make its users smarter or more dependent |
+
+### Earlier components (archived)
+
+The standalone components from early 2026 (the cLaw framework, Sovereign Vault, the trust graph engine, cognitive memory, meeting intelligence, the integrity engines and the rest) now live on in [Agent-Friday](https://github.com/FutureSpeakAI/Agent-Friday). Their repositories were archived on 2026-10-11 and stay readable.
 
 ---
 
